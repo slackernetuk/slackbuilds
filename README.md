@@ -1,1 +1,1 @@
-# slackbuilds for Slackware 
+# slackbuilds for Slackware ( current ) 
