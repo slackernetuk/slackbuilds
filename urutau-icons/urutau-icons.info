@@ -1,0 +1,8 @@
+PRGNAM="urutau-icons"
+VERSION="0.4.0"
+HOMEPAGE="https://github.com/btd1337/urutau-icons"
+DOWNLOAD="https://github.com/btd1337/urutau-icons/archive/latest.tar.gz"
+MD5SUM="cf97df36fec41c27213ab79e1f7d9c9b"
+REQUIRES="elementary-icons"
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"
