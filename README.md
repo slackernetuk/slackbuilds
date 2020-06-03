@@ -1,1 +1,0 @@
-# slackbuilds for Slackware ( current ) 
