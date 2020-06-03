@@ -1,0 +1,8 @@
+PRGNAM="harfbuzz"
+VERSION="1.4.8"
+HOMEPAGE="https://www.freedesktop.org/wiki/Software/HarfBuzz"
+DOWNLOAD="https://www.freedesktop.org/software/harfbuzz/release/harfbuzz-1.4.8.tar.bz2"
+MD5SUM="d1aa446e1e65717311c15d9ac0cf31ee"
+REQUIRES=""
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"

@@ -1,0 +1,8 @@
+PRGNAM="Thunar"
+VERSION="1.8.15"
+HOMEPAGE="https://www.xfce.org"
+DOWNLOAD="http://archive.xfce.org/src/xfce/thunar/1.8/thunar-1.8.15.tar.bz2"
+MD5SUM="303010f4959fa23f7c13c0ccd9b8527e"
+REQUIRES="exo libxfce4ui"
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"

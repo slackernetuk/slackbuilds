@@ -1,0 +1,8 @@
+PRGNAM="at-spi2-atk"
+VERSION="2.24.1"
+HOMEPAGE="https://github.com/GNOME/at-spi2-atk"
+DOWNLOAD="http://ftp.gnome.org/pub/gnome/sources/at-spi2-atk/2.24/at-spi2-atk-2.24.1.tar.xz"
+MD5SUM="79388fbc4dc7f27394556dd389aeb594"
+REQUIRES=""
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"

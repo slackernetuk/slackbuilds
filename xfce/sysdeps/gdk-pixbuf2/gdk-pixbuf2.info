@@ -1,0 +1,8 @@
+PRGNAM="gdk-pixbuf2"
+VERSION="2.36.12"
+HOMEPAGE="https://wiki.gnome.org/Projects/GdkPixbuf"
+DOWNLOAD="http://ftp.gnome.org/pub/gnome/sources/gdk-pixbuf/2.36/gdk-pixbuf-2.36.12.tar.xz"
+MD5SUM="7305ab43d741270ffa53ad2896d7f530"
+REQUIRES=""
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"

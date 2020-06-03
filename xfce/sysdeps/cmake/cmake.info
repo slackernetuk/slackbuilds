@@ -1,0 +1,8 @@
+PRGNAM="cmake"
+VERSION="3.17.3"
+HOMEPAGE="://www.cmake.org"
+DOWNLOAD="https://cmake.org/files/v3.17/cmake-3.17.3.tar.gz"
+MD5SUM="d47f23a9781b68014e77717f8e291bb7"
+REQUIRES="libuv"
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"

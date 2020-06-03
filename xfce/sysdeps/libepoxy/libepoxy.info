@@ -1,0 +1,8 @@
+PRGNAM="libepoxy"
+VERSION="1.5.2"
+HOMEPAGE="https://github.com/anholt/libepoxy"
+DOWNLOAD="https://github.com/anholt/libepoxy/releases/download/1.5.2/libepoxy-1.5.2.tar.xz"
+MD5SUM="4a6b9e581da229dee74c2263c84b1eca"
+REQUIRES=""
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"

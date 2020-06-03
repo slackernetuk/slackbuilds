@@ -1,0 +1,8 @@
+PRGNAM="atk"
+VERSION="2.24.0"
+HOMEPAGE="https://gitlab.gnome.org/GNOME/atk"
+DOWNLOAD="http://ftp.gnome.org/pub/gnome/sources/atk/2.24/atk-2.24.0.tar.xz"
+MD5SUM="3747a80089dfa3c0bbcf21adfff9968b"
+REQUIRES=""
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"

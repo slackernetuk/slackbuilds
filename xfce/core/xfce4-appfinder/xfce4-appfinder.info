@@ -1,0 +1,8 @@
+PRGNAM="xfce4-appfinder"
+VERSION="4.14.0"
+HOMEPAGE="https://www.xfce.org"
+DOWNLOAD="http://archive.xfce.org/src/xfce/xfce4-appfinder/4.14/xfce4-appfinder-4.14.0.tar.bz2"
+MD5SUM="03b226a2ee20f95243e74d1868e94e0e"
+REQUIRES="garcon libxfce4ui"
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"

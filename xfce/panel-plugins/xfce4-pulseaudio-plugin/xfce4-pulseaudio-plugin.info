@@ -1,0 +1,8 @@
+PRGNAM="xfce4-pulseaudio-plugin"
+VERSION="0.4.3"
+HOMEPAGE="https://goodies.xfce.org/projects/panel-plugins/xfce4-pulseaudio-plugin"
+DOWNLOAD="https://archive.xfce.org/src/panel-plugins/xfce4-pulseaudio-plugin/0.4/xfce4-pulseaudio-plugin-0.4.3.tar.bz2"
+MD5SUM="3d86032acb9364d47e0a144350c63e1a"
+REQUIRES=""
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"

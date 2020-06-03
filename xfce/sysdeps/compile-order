@@ -1,0 +1,42 @@
+python3				(SBo)
+ninja				(SBo)
+meson				(SBo)
+pcre
+glib2
+gdk-pixbuf2
+gobject-introspection
+cairo
+graphite2
+harfbuzz
+freetype
+fontconfig
+pango
+libepoxy
+atk
+libxkbcommon			(SBo)
+at-spi2-core
+at-spi2-atk
+six				(SBo)
+vala				(SBo)
+libgusb				(SBo)
+colord
+gtk+3
+graphviz			(SBo)
+pyudev				(SBo)
+python-evdev			(SBo)
+libwacom			(SBo)
+libinput			(SBo)
+xf86-input-liblinput		(SBo)
+upower
+presentproto
+libgtop				(SBo)
+libwnck3			(SBo)
+libopenraw			(SBo)
+ffmpeg				(SBo)
+ffmpegthumbnailer		(SBo)
+vte3
+libuv
+cmake
+json-glib			(SBo)
+cogl
+clutter

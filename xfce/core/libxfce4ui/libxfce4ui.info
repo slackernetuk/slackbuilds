@@ -1,0 +1,8 @@
+PRGNAM="libxfce4ui"
+VERSION="4.14.1"
+HOMEPAGE="https://www.xfce.org"
+DOWNLOAD="http://archive.xfce.org/src/xfce/libxfce4ui/4.14/libxfce4ui-4.14.1.tar.bz2"
+MD5SUM="50eae4bab5eeced186bce16fb5f802ac"
+REQUIRES="libxfce4util xfconf"
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"

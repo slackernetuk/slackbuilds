@@ -1,0 +1,8 @@
+PRGNAM="freetype"
+VERSION="2.10.2"
+HOMEPAGE="https://www.freetype.org"
+DOWNLOAD="https://downloads.sourceforge.net/freetype/freetype-2.10.2.tar.xz"
+MD5SUM="7c0d5a39f232d7eb9f9d7da76bf08074"
+REQUIRES=""
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"
