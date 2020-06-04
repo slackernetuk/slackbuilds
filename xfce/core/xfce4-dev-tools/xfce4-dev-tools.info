@@ -1,0 +1,8 @@
+PRGNAM="xfce4-dev-tools"
+VERSION="4.14.0"
+HOMEPAGE="https://www.xfce.org"
+DOWNLOAD="https://archive.xfce.org/src/xfce/xfce4-dev-tools/4.14/xfce4-dev-tools-4.14.0.tar.bz2"
+MD5SUM="5f8fc8af73819c08d9e4c26a3ac457e7"
+REQUIRES=""
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"
