@@ -24,7 +24,7 @@
 PRGNAM=xfce4-dev-tools
 VERSION=${VERSION:-4.14.0}
 BUILD=${BUILD:-1}
-TAG=${TAG:-_SBo}
+TAG=${TAG:-_snuk}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
@@ -35,7 +35,7 @@ if [ -z "$ARCH" ]; then
 fi
 
 CWD=$(pwd)
-TMP=${TMP:-/tmp/SBo}
+TMP=${TMP:-/tmp/snuk}
 PKG=$TMP/package-$PRGNAM
 OUTPUT=${OUTPUT:-/tmp}
 
@@ -77,6 +77,7 @@ CXXFLAGS="$SLKCFLAGS" \
   --localstatedir=/var \
   --mandir=/usr/man \
   --infodir=/usr/info \
+  --disable-static \
   --docdir=/usr/doc/$PRGNAM-$VERSION \
   --build=$ARCH-slackware-linux
 
@@ -86,7 +87,7 @@ make install DESTDIR=$PKG
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
-if [ -d $PKG/usr/man ]; then
+if [ -d PKG/usr/man ]; then
 find $PKG/usr/man -type f -exec gzip -9 {} \;
 for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
 fi
@@ -97,7 +98,7 @@ find $PKG -name perllocal.pod \
   | xargs rm -f
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-DOCS="AUTHORS COPYING ChangeLog HACKING INSTALL NEWS README" 
+DOCS="AUTHORS COPYING ChangeLog HACKING NEWS README"
 cp -a $DOCS $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 

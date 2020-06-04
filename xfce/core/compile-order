@@ -1,0 +1,16 @@
+xfce4-dev-tools
+libxfce4util
+xfconf
+libxfce4ui
+exo
+garcon
+xfce4-panel
+thunar
+thunar-volman
+tumbler
+xfce4-appfinder
+xfce4-power-manager
+xfce4-settings
+xfdesktop
+xfwm4
+xfce4-session

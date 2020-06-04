@@ -1,0 +1,8 @@
+PRGNAM="xfce4-panel"
+VERSION="4.14.4"
+HOMEPAGE="https://www.xfce.org"
+DOWNLOAD="http://archive.xfce.org/src/xfce/xfce4-panel/4.14/xfce4-panel-4.14.4.tar.bz2"
+MD5SUM="76efdbf7fb461f3058919c1309da67ca"
+REQUIRES="libxfce4util xfconf libxfce4ui exo garcon"
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"

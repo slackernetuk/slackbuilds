@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Slackware build script for gnome-terminal
+# Slackware build script for xfdashboard
 # Copyright 2020 Frank Honolka <slackernetuk@gmail.com>
 # All rights reserved.
 #
@@ -21,11 +21,10 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-PRGNAM=gnome-terminal
-VERSION=${VERSION:-3.36.2}
+PRGNAM=xfdashboard
 BUILD=${BUILD:-1}
 TAG=${TAG:-_snuk}
-
+GITURL=https://gitlab.xfce.org/apps/xfdashboard.git
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
     i?86) ARCH=i586 ;;
@@ -58,9 +57,10 @@ set -e
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf $PRGNAM-$VERSION
-tar xvf $CWD/$PRGNAM-$VERSION.tar.xz
-cd $PRGNAM-$VERSION
+rm -rf $PRGNAM
+git clone $GITURL
+cd $PRGNAM
+VERSION=`git describe | cut -d "-" -f1`
 chown -R root:root .
 find -L . \
  \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
@@ -68,20 +68,15 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-zcat $CWD/transparency.patch.gz | patch -p1 || exit
-
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
-./configure \
+./autogen.sh \
   --prefix=/usr \
   --libdir=/usr/lib${LIBDIRSUFFIX} \
   --sysconfdir=/etc \
   --localstatedir=/var \
   --mandir=/usr/man \
   --infodir=/usr/info \
-  --disable-static \
-  --disable-search-provider \
-  --without-nautilus-extension \
   --docdir=/usr/doc/$PRGNAM-$VERSION \
   --build=$ARCH-slackware-linux
 
@@ -96,26 +91,19 @@ find $PKG/usr/man -type f -exec gzip -9 {} \;
 for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
 fi
 
-if [ -d $PKG/usr/info ]; then
-rm -f $PKG/usr/info/dir
-gzip -9 $PKG/usr/info/*.info*
-fi
-
-rm -v $PKG/usr/lib/systemd/user/gnome-terminal-server.service
-
 find $PKG -name perllocal.pod \
   -o -name ".packlist" \
   -o -name "*.bs" \
   | xargs rm -f
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-DOCS="AUTHORS COPYING COPYING.GFDL ChangeLog.README ChangeLog ChangeLog.pre-2-23 HACKING NEWS ChangeLog.README" 
-cp -a $DOCS  $PKG/usr/doc/$PRGNAM-$VERSION
-
+DOCS="AUTHORS COPYING NEWS README.md"
+cp -a $DOCS $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
+cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-tgz}

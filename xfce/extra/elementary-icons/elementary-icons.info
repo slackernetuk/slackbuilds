@@ -1,0 +1,8 @@
+PRGNAM="elementary-icons"
+VERSION="5.3.1"
+HOMEPAGE="https://github.com/elementary/icons"
+DOWNLOAD="https://github.com/elementary/icons/archive/5.3.1.tar.gz"
+MD5SUM="7c46c8fc6e595ceaa53a4d08e388a150"
+REQUIRES=""
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"

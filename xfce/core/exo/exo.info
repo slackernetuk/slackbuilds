@@ -1,0 +1,8 @@
+PRGNAM="exo"
+VERSION="0.12.11"
+HOMEPAGE="https://www.xfce.org"
+DOWNLOAD="http://archive.xfce.org/src/xfce/exo/0.12/exo-0.12.11.tar.bz2"
+MD5SUM="efeb039d64b3257e39a1a38e75eb19b1"
+REQUIRES="libxfce4util xfconf libxfce4ui"
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"

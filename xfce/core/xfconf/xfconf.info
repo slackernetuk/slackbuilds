@@ -1,0 +1,8 @@
+PRGNAM="xfconf"
+VERSION="4.14.3"
+HOMEPAGE="https://www.xfce.org"
+DOWNLOAD="http://archive.xfce.org/src/xfce/xfconf/4.14/xfconf-4.14.3.tar.bz2"
+MD5SUM="25c32ed08a43e81f7900c03601dffc02"
+REQUIRES="libxfce4util"
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"

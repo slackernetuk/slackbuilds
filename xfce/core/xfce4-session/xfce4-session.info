@@ -1,0 +1,8 @@
+PRGNAM="xfce4-session"
+VERSION="4.14.2"
+HOMEPAGE="https://www.xfce.org"
+DOWNLOAD="http://archive.xfce.org/src/xfce/xfce4-session/4.14/xfce4-session-4.14.2.tar.bz2"
+MD5SUM="5ad23062fd08ef5f5ad9b4389c7b54c6"
+REQUIRES="libxfce4ui"
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"
