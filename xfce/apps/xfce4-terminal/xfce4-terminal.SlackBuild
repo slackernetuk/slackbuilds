@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Slackware build script for xfce4-whiskermenu-plugin
+# Slackware build script for xfce4-terminal
 # Copyright 2020 Frank Honolka <slackernetuk@gmail.com>
 # All rights reserved.
 #
@@ -21,11 +21,10 @@
 # OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-PRGNAM=xfce4-whiskermenu-plugin
-GITURL=https://gitlab.xfce.org/panel-plugins/xfce4-whiskermenu-plugin.git
+PRGNAM=xfce4-terminal
 BUILD=${BUILD:-1}
 TAG=${TAG:-_snuk}
-
+GITURL=https://gitlab.xfce.org/apps/xfce4-terminal.git
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
     i?86) ARCH=i586 ;;
@@ -61,7 +60,7 @@ cd $TMP
 rm -rf $PRGNAM
 git clone $GITURL
 cd $PRGNAM
-VERSION=`git describe | cut -d 'v' -f2 | cut -d '-' -f1`
+VERSION=`git describe | cut -d'-' -f3`
 GIT=git
 chown -R root:root .
 find -L . \
@@ -70,36 +69,42 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
  -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-mkdir build
-cd build
-  cmake \
-    -DCMAKE_C_FLAGS:STRING="$SLKCFLAGS" \
-    -DCMAKE_CXX_FLAGS:STRING="$SLKCFLAGS" \
-    -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_INSTALL_PREFIX=/usr \
-    -DCMAKE_INSTALL_MANDIR=/usr/man \
-    -DCMAKE_INSTALL_LIBDIR=/usr/lib$LIBDIRSUFFIX .. 
-  make 
-  make install DESTDIR=$PKG
-cd ..
+CFLAGS="$SLKCFLAGS" \
+CXXFLAGS="$SLKCFLAGS" \
+./autogen.sh \
+  --prefix=/usr \
+  --libdir=/usr/lib${LIBDIRSUFFIX} \
+  --sysconfdir=/etc \
+  --localstatedir=/var \
+  --mandir=/usr/man \
+  --infodir=/usr/info \
+  --docdir=/usr/doc/$PRGNAM-$VERSION \
+  --build=$ARCH-slackware-linux
+
+make
+make install DESTDIR=$PKG
 
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
 
 if [ -d $PKG/usr/man ]; then
-	find $PKG/usr/man -type f -exec gzip -9 {} \;
-	for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
+find $PKG/usr/man -type f -exec gzip -9 {} \;
+for i in $( find $PKG/usr/man -type l ) ; do ln -s $( readlink $i ).gz $i.gz ; rm $i ; done
 fi
 
-find $PKG -name "perllocal.pod" -o -name ".packlist" -o -name "*.bs" | xargs rm -f || true
+find $PKG -name perllocal.pod \
+  -o -name ".packlist" \
+  -o -name "*.bs" \
+  | xargs rm -f
 
 mkdir -p $PKG/usr/doc/$PRGNAM-$VERSION
-DOCS="AUTHORS COPYING INSTALL NEWS README" 
+DOCS="AUTHORS COPYING HACKING NEWS README.md THANKS TODO"
 cp -a $DOCS $PKG/usr/doc/$PRGNAM-$VERSION
 cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
 mkdir -p $PKG/install
 cat $CWD/slack-desc > $PKG/install/slack-desc
+cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 cd $PKG
-/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-tgz}
+/sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION$GIT-$ARCH-$BUILD$TAG.${PKGTYPE:-tgz}
