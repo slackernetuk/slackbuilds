@@ -1,1 +1,1 @@
-Personal & unofficial slackbuilds for Slackware current
+unofficial xfce-git slackbuilds for Slackware current
