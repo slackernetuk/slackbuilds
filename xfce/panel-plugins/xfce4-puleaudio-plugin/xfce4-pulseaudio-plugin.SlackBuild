@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Slackware build script for xfce4-dev
+# Slackware build script for xfce4-puleaudio-plugin
 # Copyright 2020 Frank Honolka <slackernetuk@gmail.com>
 # All rights reserved.
 #
