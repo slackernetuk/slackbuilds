@@ -1,8 +1,0 @@
-PRGNAM="ristretto"
-VERSION="0.10.0"
-HOMEPAGE="https://www.xfce.org"
-DOWNLOAD="http://archive.xfce.org/src/apps/ristretto/0.10/ristretto-0.10.0.tar.bz2"
-MD5SUM="4249e14fba78728481d89ce61a8771fc"
-REQUIRES=""
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"

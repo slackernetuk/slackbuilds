@@ -1,8 +1,0 @@
-PRGNAM="tumbler"
-VERSION="0.2.8"
-HOMEPAGE="https://www.xfce.org"
-DOWNLOAD="http://archive.xfce.org/src/xfce/tumbler/0.2/tumbler-0.2.8.tar.bz2"
-MD5SUM="5d541608b3962fd2b16e23a266fd7a10"
-REQUIRES=""
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"

@@ -1,8 +1,0 @@
-PRGNAM="xfwm4"
-VERSION="4.14.2"
-HOMEPAGE="https://www.xfce.org"
-DOWNLOAD="http://archive.xfce.org/src/xfce/xfwm4/4.14/xfwm4-4.14.2.tar.bz2"
-MD5SUM="6d61d07b6ea88a429c43e1b9c3293eb8"
-REQUIRES="libwnck libxfce4util libxfce4ui"
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"

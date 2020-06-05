@@ -1,8 +1,0 @@
-PRGNAM="xfce4-settings"
-VERSION="4.14.3"
-HOMEPAGE="https://www.xfce.org"
-DOWNLOAD="http://archive.xfce.org/src/xfce/xfce4-settings/4.14/xfce4-settings-4.14.3.tar.bz2"
-MD5SUM="fe8f7d4221be1467b85c8539344c3f07"
-REQUIRES="exo garcon libxfce4ui"
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"

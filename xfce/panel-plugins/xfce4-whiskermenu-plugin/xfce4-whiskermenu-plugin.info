@@ -1,8 +1,0 @@
-PRGNAM="xfce4-whiskermenu-plugin"
-VERSION="2.4.4"
-HOMEPAGE="https://gottcode.org/xfce4-whiskermenu-plugin/"
-DOWNLOAD="https://archive.xfce.org/src/panel-plugins/xfce4-whiskermenu-plugin/2.4/xfce4-whiskermenu-plugin-2.4.4.tar.bz2"
-MD5SUM="7f6faf5ae5ca276d073798a3ff8b0e5b"
-REQUIRES=""
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"

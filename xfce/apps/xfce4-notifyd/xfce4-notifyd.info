@@ -1,8 +1,0 @@
-PRGNAM="xfce4-notifyd"
-VERSION="0.6.1"
-HOMEPAGE="https://www.xfce.org"
-DOWNLOAD="http://archive.xfce.org/src/apps/xfce4-notifyd/0.6/xfce4-notifyd-0.6.1.tar.bz2"
-MD5SUM="58e70621d6b9e0e66399ed41ab402a47"
-REQUIRES=""
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"
