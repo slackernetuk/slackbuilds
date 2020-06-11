@@ -1,8 +1,0 @@
-PRGNAM="libxfce4util"
-VERSION="4.14.0"
-HOMEPAGE="https://www.xfce.org/"
-DOWNLOAD="http://archive.xfce.org/src/xfce/libxfce4util/4.14/libxfce4util-4.14.0.tar.bz2"
-MD5SUM="46f44e36acc3abf1a5ba814c22a773cb"
-REQUIRES=""
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"

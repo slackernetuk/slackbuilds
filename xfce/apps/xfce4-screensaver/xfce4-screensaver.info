@@ -1,8 +1,0 @@
-PRGNAM="xfce4-screensaver"
-VERSION="0.1.10"
-HOMEPAGE="https://www.xfce.org"
-DOWNLOAD="https://archive.xfce.org/src/apps/xfce4-screensaver/0.1/xfce4-screensaver-0.1.10.tar.bz2"
-MD5SUM="1f093cde5af09e9fd9be017774e032ef"
-REQUIRES=""
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"
