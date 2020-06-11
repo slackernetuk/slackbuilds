@@ -1,8 +1,0 @@
-PRGNAM="garcon"
-VERSION="0.7.0"
-HOMEPAGE="https://www.xfce.org"
-DOWNLOAD="http://archive.xfce.org/src/xfce/garcon/0.7/garcon-0.7.0.tar.bz2"
-MD5SUM="2964c7a7e5d4aac58b4afef9b8602914"
-REQUIRES="libxfce4util xfconf libxfce4ui exo"
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"

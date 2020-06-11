@@ -1,8 +1,0 @@
-PRGNAM="thunar-volman"
-VERSION="0.9.5"
-HOMEPAGE="https://www.xfce.org"
-DOWNLOAD="http://archive.xfce.org/src/xfce/thunar-volman/0.9/thunar-volman-0.9.5.tar.bz2"
-MD5SUM="f9ef39ed4bbff05eb74058dfff24dd84"
-REQUIRES="exo libgudev libxfce4ui"
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"

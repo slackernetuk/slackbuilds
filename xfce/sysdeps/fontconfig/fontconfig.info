@@ -1,8 +1,0 @@
-PRGNAM="fontconfig"
-VERSION="2.13.1"
-HOMEPAGE="https://www.freedesktop.org/wiki/Software/fontconfig"
-DOWNLOAD="https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.13.1.tar.bz2"
-MD5SUM="36cdea1058ef13cbbfdabe6cb019dc1c"
-REQUIRES=""
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"

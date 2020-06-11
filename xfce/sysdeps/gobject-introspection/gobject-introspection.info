@@ -1,8 +1,0 @@
-PRGNAM="gobject-introspection"
-VERSION="1.56.1"
-HOMEPAGE="https://wiki.gnome.org/Projects/GObjectIntrospection"
-DOWNLOAD="http://ftp.gnome.org/pub/gnome/sources/gobject-introspection/1.56/gobject-introspection-1.56.1.tar.xz"
-MD5SUM="62e5f5685b8d9752fdeaf17c057d53d1"
-REQUIRES=""
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"

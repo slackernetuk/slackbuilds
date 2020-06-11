@@ -1,8 +1,0 @@
-PRGNAM="presentproto"
-VERSION="1.1"
-HOMEPAGE="https://www.x.org/wiki/"
-DOWNLOAD="https://www.x.org/archive/individual/proto/presentproto-1.1.tar.gz"
-MD5SUM="dc689e8569eda66b8c404e355f575119"
-REQUIRES=""
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"

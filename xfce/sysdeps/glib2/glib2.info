@@ -1,8 +1,0 @@
-PRGNAM="glib2"
-VERSION="2.56.1"
-HOMEPAGE="https://wiki.gnome.org/Projects/GLib"
-DOWNLOAD="http://ftp.gnome.org/pub/gnome/sources/glib/2.56/glib-2.56.1.tar.xz"
-MD5SUM="988af38524804ea1ae6bc9a2bad181ff"
-REQUIRES=""
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"

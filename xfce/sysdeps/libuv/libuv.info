@@ -1,8 +1,0 @@
-PRGNAM="libuv"
-VERSION="1.38.0"
-HOMEPAGE="https://github.com/libuv/libuv"
-DOWNLOAD="https://dist.libuv.org/dist/v1.38.0/libuv-v1.38.0.tar.gz"
-MD5SUM="4bf6627b31c75356a11f6fbf353c73ee"
-REQUIRES=""
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"

@@ -1,8 +1,0 @@
-PRGNAM="pcre"
-VERSION="8.42"
-HOMEPAGE="https://www.pcre.org"
-DOWNLOAD="https://ftp.pcre.org/pub/pcre/pcre-8.42.tar.bz2"
-MD5SUM="085b6aa253e0f91cae70b3cdbe8c1ac2"
-REQUIRES=""
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"

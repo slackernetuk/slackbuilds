@@ -1,8 +1,0 @@
-PRGNAM="pango"
-VERSION="1.40.10"
-HOMEPAGE="https://www.pango.org"
-DOWNLOAD="http://ftp.gnome.org/pub/gnome/sources/pango/1.40/pango-1.40.10.tar.xz"
-MD5SUM="a612e445157c688a3efe878938e7f4c6"
-REQUIRES=""
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"

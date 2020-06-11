@@ -1,8 +1,0 @@
-PRGNAM="xfdesktop"
-VERSION="4.14.2"
-HOMEPAGE="http://www.xfce.org"
-DOWNLOAD="http://archive.xfce.org/src/xfce/xfdesktop/4.14/xfdesktop-4.14.2.tar.bz2"
-MD5SUM="5db09df39b0808f25bd3a3128f8c9e77"
-REQUIRES="exo libwnck libxfce4ui"
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"

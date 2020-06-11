@@ -1,8 +1,0 @@
-PRGNAM="xfdashboard"
-VERSION="0.7.7"
-HOMEPAGE="https://git.xfce.org/apps/xfdashboard"
-DOWNLOAD="https://archive.xfce.org/src/apps/xfdashboard/0.7/xfdashboard-0.7.7.tar.bz2"
-MD5SUM="50114207b2503ce775eeb321e2918ea4"
-REQUIRES="json-glib cogl clutter"
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"

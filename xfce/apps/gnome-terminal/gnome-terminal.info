@@ -1,8 +1,0 @@
-PRGNAM="gnome-terminal"
-VERSION="3.30.2"
-HOMEPAGE="https://wiki.gnome.org/Apps/Terminal"
-DOWNLOAD="http://ftp.gnome.org/pub/gnome/sources/gnome-terminal/3.30/gnome-terminal-3.30.2.tar.xz"
-MD5SUM="debc2a025675312ad5ae33232f02c027"
-REQUIRES="vte3"
-MAINTAINER="Frank Honolka"
-EMAIL="slackernetuk@gmail.com"
