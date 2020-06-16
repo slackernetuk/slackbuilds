@@ -1,36 +1,11 @@
 #!/bin/bash
 
-for sbo in \
+for packages in \
 	python3 \
 	ninja \
 	meson \
 	wayland \
 	wayland-protocols \
-	libxkbcommon \
-	six \
-	vala \
-	libgusb \
-	graphviz \
-	pyudev \
-	python-evdev \
-	libwacom \
-	libinput \
-	xf86-input-libinput \
-	libgtop \
-	libwnck3 \
-	libopenraw \
-	ffmpeg \
-	ffmpegthumbnailer \
-	pcre2 \
-	json-glib \
-	arc-theme \
-	gnome-common \
-	cantarell-fonts \
-	; do
-sbopkg -B -i $sbo || exit 1
-done
-
-for packages in \
 	pcre \
 	glib2 \
 	gdk-pixbuf2 \
@@ -43,18 +18,38 @@ for packages in \
 	pango \
 	libepoxy \
 	atk \
+	libxkbcommon \
 	at-spi2-core \
 	at-spi2-atk \
+	six \
+	vala \
+	libgusb \
+	pcre2 \
 	colord \
+	graphviz \
+	pyudev \
+	python-evdev \
+	libwacom \
+	libinput \
+	xf86-input-libinput \
 	gtk+3 \
 	upower \
 	presentproto \
 	vte3 \
 	libuv \
 	cmake \
+	json-glib \
 	cogl \
 	clutter \
+	libwnck3 \
+	libgtop \
 	bamf \
+	libopenraw \
+	ffmpeg \
+	ffmpegthumbnailer \
+	arc-theme \
+	gnome-common \
+	cantarell-fonts \
 	xfce4-dev-tools \
 	libxfce4util \
 	xfconf \
