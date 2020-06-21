@@ -66,6 +66,8 @@ for packages in \
 	xfdesktop \
 	xfwm4 \
 	xfce4-session \
+	xfce4-screensaver \
+	xfce4-screenshooter \
 	xfce4-pulseaudio-plugin \
 	xfce4-whiskermenu-plugin \
 	gnome-terminal \
