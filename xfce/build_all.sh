@@ -41,6 +41,7 @@ ristretto \
 elementary-icons \
 urutau-icons \
 cantarell-fonts \
+xf86-video-intel \
 ; do
 cd $package || exit 1
 ./${package}.SlackBuild || exit 1
