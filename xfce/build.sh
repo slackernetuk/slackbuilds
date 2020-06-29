@@ -70,6 +70,8 @@ for packages in \
 	xfce4-screenshooter \
 	xfce4-pulseaudio-plugin \
 	xfce4-whiskermenu-plugin \
+	yelp-xsl \
+	yelp-tools \
 	gnome-terminal \
 	vala-panel-appmenu \
 	xfdashboard \
