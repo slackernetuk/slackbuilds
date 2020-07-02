@@ -1,0 +1,8 @@
+PRGNAM="firefox-appmenu-bin.info"
+VERSION="78.0"
+HOMEPAGE="homepage of application"
+DOWNLOAD="https://github.com/nikatar/AUR/raw/master/firefox-appmenu-bin/firefox-appmenu-78.0-1-x86_64.pkg.tar.xz"
+MD5SUM="eb9f7ef47a9951024a900b5f0623771a"
+REQUIRES="libdbusmenu"
+MAINTAINER="Frank Honolka"
+EMAIL="slackernetuk@gmail.com"
