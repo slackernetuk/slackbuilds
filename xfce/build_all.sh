@@ -41,7 +41,8 @@ ristretto \
 elementary-icons \
 urutau-icons \
 cantarell-fonts \
-xf86-video-intel \
+libdbusmenu \
+firefox-appmenu-bin \
 ; do
 cd $package || exit 1
 ./${package}.SlackBuild || exit 1
