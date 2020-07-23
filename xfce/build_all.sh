@@ -42,7 +42,6 @@ elementary-icons \
 urutau-icons \
 cantarell-fonts \
 libdbusmenu \
-firefox-appmenu-bin \
 ; do
 cd $package || exit 1
 ./${package}.SlackBuild || exit 1
