@@ -61,7 +61,7 @@ SRCNAM="libwnck"
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf $PRGNAM-$VERSION
+rm -rf ${SRCNAM}-${VERSION}
 wget -P $CWD $SRCURL
 tar xvf $CWD/${SRCNAM}-${VERSION}.tar.xz
 rm $CWD/${SRCNAM}-${VERSION}.tar.xz
