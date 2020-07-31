@@ -152,5 +152,4 @@ cat $CWD/slack-desc > $PKG/install/slack-desc
 
 cd $PKG
 /sbin/makepkg -l y -c n $TMP/$PKGNAM-$VERSION-$ARCH-$BUILD$TAG.txz
-/sbin/upgradepkg --install-new --reinstall $TMP/$PKGNAM-$VERSION-$ARCH-$BUILD$TAG.txz
 
