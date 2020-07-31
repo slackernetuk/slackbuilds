@@ -73,6 +73,7 @@ for packages in \
 	yelp-xsl \
 	yelp-tools \
 	gnome-terminal \
+	libdbusmenu \
 	vala-panel-appmenu \
 	xfdashboard \
 	xfce4-terminal \
