@@ -35,6 +35,7 @@ xfce4-terminal \
 xfce4-screensaver \
 xfce4-screenshooter \
 xfce4-notifyd \
+xfce4-xkb-plugin \
 xiccd \
 gnome-terminal \
 ristretto \
