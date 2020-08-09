@@ -37,6 +37,8 @@ xfce4-screensaver \
 xfce4-screenshooter \
 xfce4-notifyd \
 cantarell-fonts \
+elementary-icons \
+urutau-icons \
 ; do
 cd $package || exit 1
 ./${package}.SlackBuild || exit 1
