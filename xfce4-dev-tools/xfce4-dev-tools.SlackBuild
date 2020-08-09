@@ -61,7 +61,7 @@ cd $TMP
 rm -rf $PRGNAM
 git clone $GITURL
 cd $PRGNAM
-VERSION=`git describe | cut -d "-" -f2` 
+VERSION=`git describe | cut -d "-" -f4` 
 GIT=git
 chown -R root:root .
 find -L . \
