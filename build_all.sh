@@ -1,3 +1,4 @@
+# Xfce Build Script
 #!/bin/bash
 
 for package in \
