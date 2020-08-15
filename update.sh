@@ -24,6 +24,8 @@ xfce4-terminal \
 xfce4-screensaver \
 xfce4-screenshooter \
 xfce4-notifyd \
+xfdashboard \
+vala-panel-appmenu \
 ; do
 cd $package || exit 1
 ./${package}.SlackBuild || exit 1
