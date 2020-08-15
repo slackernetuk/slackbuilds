@@ -58,7 +58,7 @@ set -e
 rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
-rm -rf $PRGNAM-$VERSION
+rm -rf $PRGNAM
 git clone $GITURL
 cd $PRGNAM
 VERSION=`git describe`
