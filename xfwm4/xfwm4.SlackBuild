@@ -61,7 +61,7 @@ cd $TMP
 rm -rf $PRGNAM
 git clone $GITURL
 cd $PRGNAM
-VERSION=`git describe | cut -d "-" -f2` 
+VERSION=`git describe --long --match 'xfwm4-*' | sed 's/xfwm4-//;s/^\([[:digit:]]\)-/\1./;s/-/+/g' | cut -d '+' -f1` 
 GIT=git
 chown -R root:root .
 find -L . \
