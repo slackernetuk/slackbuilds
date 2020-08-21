@@ -12,6 +12,7 @@ bamf \
 colord \
 cogl \
 clutter \
+libdbusmenu \
 xfce4-dev-tools \
 libxfce4util \
 xfconf \
