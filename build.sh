@@ -41,6 +41,7 @@ xiccd \
 cantarell-fonts \
 elementary-icons \
 urutau-icons \
+Orchis-theme \
 ; do
 cd $package || exit 1
 ./${package}.SlackBuild || exit 1
