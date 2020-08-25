@@ -42,6 +42,7 @@ cantarell-fonts \
 elementary-icons \
 urutau-icons \
 Orchis-theme \
+adwaita-dark-compact-xfwm4 \
 ; do
 cd $package || exit 1
 ./${package}.SlackBuild || exit 1
